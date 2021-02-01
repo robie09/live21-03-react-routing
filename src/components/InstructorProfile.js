@@ -1,3 +1,4 @@
+import { useParams, Redirect } from "react-router";
 import { Button, ButtonsWrapper } from "./styles";
 
 const InstructorProfile = ({ instructors, instructorSlug, goTo }) => {
